@@ -17,6 +17,7 @@ internal class Program
             {
                 case "1":
                     {
+                        Console.Clear();
                         Console.Write("Enter amount ");
                         decimal amount = Convert.ToDecimal(Console.ReadLine());
                         balanceService.Add(amount);
@@ -24,6 +25,7 @@ internal class Program
                     break;
                 case "2":
                     {
+                        Console.Clear();
                         Console.Write("Enter amount ");
                         decimal amount = Convert.ToDecimal(Console.ReadLine());
                         balanceService.Subtract(amount);
@@ -31,6 +33,7 @@ internal class Program
                     break;
                 case "3":
                     {
+                        Console.Clear();
                         Console.WriteLine(balanceService.Get());
                     }
                     break;
