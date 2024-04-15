@@ -1,4 +1,7 @@
-﻿internal class Program
+﻿//----------------------------------------
+// Tarteeb School (c) All rights reserved
+//----------------------------------------
+internal class Program
 {
     private static void Main(string[] args)
     {
