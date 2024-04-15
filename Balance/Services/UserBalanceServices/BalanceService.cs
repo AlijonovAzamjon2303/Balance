@@ -23,7 +23,7 @@ namespace Balance.Services.UserBalanceServices
             this.user.Fund += amount;
         }
 
-        public decimal Get(decimal amount)
+        public decimal Get()
         {
             return this.user.Fund;
         }

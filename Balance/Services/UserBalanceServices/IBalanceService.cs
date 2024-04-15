@@ -8,6 +8,6 @@ namespace Balance.Services.UserBalanceServices
     {
         void Add(decimal amount);
         void Subtract(decimal amount);
-        decimal Get(decimal amount);
+        decimal Get();
     }
 }
